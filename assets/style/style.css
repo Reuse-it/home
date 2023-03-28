@@ -1,0 +1,147 @@
+body, html, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;    
+}
+
+body {
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+    line-height: 1.5;
+
+    background-color: #fff;
+    color: #494848;
+
+}
+
+/* Global */
+
+h1, nav{
+    font-size: 34px;
+}
+
+a{
+    text-decoration: none;
+    color: #4FA0AB;
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color:#F4737E;
+}
+
+section{
+    margin: 60px 80px;
+}
+
+/* homepage style */
+
+header{
+    display: flex;
+    justify-content: right;
+    height: 120px;
+    background-color: #FBE949;
+}
+
+nav {
+    margin: 40px 80px 0 0;
+}
+
+#location_sign_a{
+    position: absolute;
+    top: 94px;
+    right: 747px;
+
+}
+
+#location_sign_ws{
+    position: absolute;
+    top: 94px;
+    right: 510px;
+}
+
+#location_sign_g{
+    position: absolute;
+    top: 94px;
+    right: 310px;
+}
+
+#location_sign_ab{
+    position: absolute;
+    top: 94px;
+    right: 148px;
+
+}
+
+#logo{
+    position: absolute;
+    left: 40px;
+}
+
+section.pictogram_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pictogram_text_s{
+    margin: 30% 0 40% 10%;
+    
+}
+
+.pictogram{
+    margin-top: 5%; 
+}
+
+.pictogram_text_xl{
+    margin: 50% 0 0 10%;
+    
+}
+
+.collections_text{
+    margin: 0 25%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBE949;
+}
+
+.social_network{
+    margin-right:80px;
+    padding: 20px 0 20px 0;
+}
+
+.cc_rights{
+    margin-left:80px;
+    padding: 20px 0 20px 0;
+}
+
+/* section logos container */
+section.logos-container{
+    margin-top: 20px;
+}
+
+.logos{
+    width: 250px;
+}
+
+/* ARCHIVE */
+
+section.archive-txt{
+    margin-top: 12%;
+}
+
+/* GALLERY */
+
+.test{
+    background-color: #F4737E;
+    width: 400px;
+    height: 400px;
+}
