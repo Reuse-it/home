@@ -13,35 +13,37 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="./assets/img/reuse_it_logo.png" alt="reuse-it logo">
-        <nav>
-            <a href="archive.html">archive</a>
-            <a href="gallery.html">gallery</a>
-            <a href="workshop.html">workshop</a>
-            <a href="about.html">about</a>
-        </nav>
+        <div class="container-md header-container">
+            <div class="logo-container">
+                <img id="logo" src="./assets/img/reuse_it_logo.png" alt="reuse-it logo">
+            </div>
+            <nav>
+                <a href="archive.html">archive</a>
+                <a href="gallery.html">gallery</a>
+                <a href="workshop.html">workshop</a>
+                <a href="about.html">about</a>
+            </nav>
+        </div> 
     </header>
 
-    <section class="pictogram_section">
-        <div>
-            <div class="pictogram_text_s">
+    <section class="container-md pictogram-section">
+        <div class="pictogram-container">
+            <div class="pictogram-text">
                 <h1>re-use De collectie van de Gentenaar *</h1>
-            </div>
-            <div class="pictogram_text_xl">
                 <h2>
                     reuse-it subjectively selects 
                     objects from Collections of Ghent/De collectie van de Gentenaar and samples 
                     patterns and colour combinations, for later re-use
                 </h2>
             </div>
-        </div>
-        <div class="pictogram">
-            <img class="pictogram_img" src="./assets/img/about_pictogram.png" alt="about reuse-it">
+            <div class="pictogram">
+                <img src="./assets/img/about_pictogram_trans.png" alt="about reuse-it">
+            </div>
         </div>
     </section>
 
     <section>
-        <div class="collections_text">
+        <div class="container-md text-center collections_text">
             <p>
                 *Collections of Ghent/De collectie van de Gentenaar is a selection 
                 from the archives and institutions of Archief Gent, Design Museum Gent, 
@@ -50,7 +52,7 @@
         </div>
     </section>
 
-    <section class="logos-container">
+    <section class="container-md logos-container">
         <div class="row">
             <div class="col">
                 <img class="logos" src="./assets/img/Logo_s_Cocreatiefonds_Cogent/18_LOGO_GENT_CORPORATE_CYAAN_300DPIkopiekopie.jpg" alt="">
@@ -71,13 +73,16 @@
     </section>
     
     <footer>
-        <div class="cc_rights">
-            <img src="/assets/img/cc-by.svg" alt="cc by rights">
-        </div>
-        <div class="social_network">
-            <img src="/assets/img/instagram-icon.svg" alt="instagram logo">
-            <img src="/assets/img/facebook-icon.svg" alt="facebook logo">
+        <div class="container-md footer-items">
+            <div class="social-media">
+                <img src="/assets/img/cc-by.svg" alt="cc by rights">
+            </div>
+            <div class="social-media">
+                <img src="/assets/img/instagram-icon.svg" alt="instagram logo">
+                <img src="/assets/img/facebook-icon.svg" alt="facebook logo">
+            </div>
         </div>
     </footer>
 </body>
 </html>
+

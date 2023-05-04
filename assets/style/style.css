@@ -5,6 +5,7 @@ body, html, div, img {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;    
+    box-sizing: border-box;
 }
 
 body {
@@ -19,8 +20,8 @@ body {
 
 /* Global */
 
-h1, nav{
-    font-size: 34px;
+h1, h2{
+    font-size: 28px;
 }
 
 a{
@@ -28,15 +29,17 @@ a{
     color: #4FA0AB;
     padding-right: 20px;
     transition: color 0.3s;
+    font-size: 28px;
+}
+
+li{
+    list-style: none;
 }
 
 a:hover{
     color:#F4737E;
 }
 
-section{
-    margin: 60px 80px;
-}
 
 /* homepage style */
 
@@ -47,9 +50,38 @@ header{
     background-color: #FBE949;
 }
 
-nav {
-    margin: 40px 80px 0 0;
+.header-container{
+    display: flex;
+    justify-content: space-between;
 }
+
+.logo-container{
+    align-self: flex-start;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.pictogram-section{
+    margin-top: 5%;
+}
+
+.pictogram-container{
+    display: flex;
+}
+
+.pictogram-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Click img location */
 
 #location_sign_a{
     position: absolute;
@@ -77,16 +109,6 @@ nav {
 
 }
 
-#logo{
-    position: absolute;
-    left: 40px;
-}
-
-section.pictogram_section{
-    display: flex;
-    justify-content: space-between;
-}
-
 
 .pictogram_text_s{
     margin: 30% 0 40% 10%;
@@ -103,33 +125,34 @@ section.pictogram_section{
 }
 
 .collections_text{
-    margin: 0 25%;
-    text-align: center;
-}
+    margin-top: 40px;
+    padding: 0 15%;
+} 
+
+
 
 footer{
-    display: flex;
-    justify-content: space-between;
     background-color: #FBE949;
 }
 
-.social_network{
-    margin-right:80px;
-    padding: 20px 0 20px 0;
+.footer-items{
+    display: flex;
+    justify-content: space-between;
 }
 
-.cc_rights{
-    margin-left:80px;
-    padding: 20px 0 20px 0;
+.social-media{
+    margin-top: 2%;
 }
 
 /* section logos container */
-section.logos-container{
-    margin-top: 20px;
+.logos-container{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .logos{
-    width: 250px;
+    width: 50%;
 }
 
 /* ARCHIVE */
@@ -145,3 +168,4 @@ section.archive-txt{
     width: 400px;
     height: 400px;
 }
+
