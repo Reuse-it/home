@@ -136,7 +136,7 @@ nav{
 }
 
 .logos{
-    width: 100%;
+    width: 50%;
 } 
 
 /* Footer */
@@ -161,17 +161,16 @@ footer{
 
 /* ARCHIVE */
 
-section.archive-txt{
+section.intro-txt{
     margin-top: 12%;
+}
+
+.archive-link{
+    font-size: 16px;
 }
 
 /* GALLERY */
 
-.test{
-    background-color: #F4737E;
-    width: 400px;
-    height: 400px;
-}
 
 /* Media Query */
 
@@ -196,7 +195,7 @@ section.archive-txt{
         height: auto;
     }
 
-    #logo{
+    #reuseit-logo{
         width: 50%;
     }
 
@@ -215,6 +214,10 @@ section.archive-txt{
 
     nav{
         flex-direction: column;
+    }
+
+    .logos{
+        width: 25%;
     }
 
     /* .copy-rights img{
