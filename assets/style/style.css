@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
 body, html, div, img {
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ body, html, div, img {
 
 body {
     font-family: 'Ultra', serif;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 1.5;
 
     background-color: #fff;
@@ -40,6 +42,13 @@ a:hover{
     color:#F4737E;
 }
 
+.intro-txt{
+    text-align: justify;
+}
+
+.intro-txt h1{
+    color: #F4737E;
+}
 
 /* homepage style */
 
@@ -161,15 +170,29 @@ footer{
 
 /* ARCHIVE */
 
-section.intro-txt{
+section.container-intro-txt{
     margin-top: 12%;
+}
+
+.loading-img{
+    width: 400px;
 }
 
 .archive-link{
     font-size: 16px;
 }
 
+.reuseitObject-image{
+    width: 100%;
+} 
+
+.reuseitObject-container{
+    margin: 15px 0;
+}
+
 /* GALLERY */
+
+/* WORKSHOP */
 
 
 /* Media Query */
