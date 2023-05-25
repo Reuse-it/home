@@ -229,10 +229,7 @@ section.container-intro-txt{
 
     #topButton {
         width: 30px;
+        right: 18px;
     }
-
-    /* .copy-rights img{
-        width: 60%;
-    }; */
 
 }
