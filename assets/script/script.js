@@ -4,7 +4,7 @@ const spaceId = "e6aae04j966s";
 const environmentId = "master";
 const accessToken = "L67tgUtJIAByIcmxzJjZgoBY7O6d8zGG5EQ0hwhyEG8";
 
-const url = `https://cdn.contentful.com/spaces/${spaceId}/environments/${environmentId}/entries?access_token=${accessToken}`
+const url = `https://cdn.contentful.com/spaces/${spaceId}/environments/${environmentId}/entries?access_token=${accessToken}&order=fields.order&content_type=reuseItem`
 console.log(url);
 
 const sectionTag = document.querySelector("div.main-archive-container");
@@ -79,3 +79,29 @@ getData().then(data => {
     });
 
 })
+
+
+//To the top button function
+window.onscroll = function () {
+    scrollFunction()
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topButton.style.display = "block";
+    } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20) {
+        topButton.style.display = "none";
+    }
+}
+
+
+
+function toTheTop (){
+    topButton.addEventListener('click', function(){
+        console.log('click')
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    })
+}
+
+toTheTop();

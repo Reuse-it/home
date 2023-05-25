@@ -89,33 +89,6 @@ nav{
     justify-content: space-evenly;
 }
 
-/* Click img location */
-
-#location_sign_a{
-    position: absolute;
-    top: 94px;
-    right: 747px;
-
-}
-
-#location_sign_ws{
-    position: absolute;
-    top: 94px;
-    right: 510px;
-}
-
-#location_sign_g{
-    position: absolute;
-    top: 94px;
-    right: 310px;
-}
-
-#location_sign_ab{
-    position: absolute;
-    top: 94px;
-    right: 148px;
-
-}
 
 
 .pictogram_text_s{
@@ -190,6 +163,17 @@ section.container-intro-txt{
     margin: 15px 0;
 }
 
+#topButton{
+    display: none; 
+    width: 50px;
+    height: auto;
+    position: fixed;
+    bottom: 87px;
+    right: 70px;
+    cursor: pointer;
+
+}
+
 /* GALLERY */
 
 /* WORKSHOP */
@@ -241,6 +225,10 @@ section.container-intro-txt{
 
     .logos{
         width: 25%;
+    }
+
+    #topButton {
+        width: 30px;
     }
 
     /* .copy-rights img{
