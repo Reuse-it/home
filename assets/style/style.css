@@ -130,6 +130,7 @@ footer{
 .footer-items{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social-media{
@@ -138,6 +139,17 @@ footer{
 
 .copy-rights{
     margin-top: 2%;
+}
+
+.website-by{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    gap: 1em;
+}
+
+.website-by img{
+    width: 30px;
 }
 
 
@@ -230,6 +242,14 @@ section.container-intro-txt{
     #topButton {
         width: 30px;
         right: 18px;
+    }
+
+    .website-by{
+        font-size: 9px;
+    }
+
+    .website-by img{
+        width: 20px;
     }
 
 }
