@@ -1,0 +1,42 @@
+{
+   "workshops": [
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/kask_worshop.jpeg",
+        "title": "Autonomous Design workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    },
+
+    {
+        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "title": "ODC workshop"
+    }
+
+
+
+   ]
+}
