@@ -9,6 +9,10 @@ console.log(url);
 
 const sectionTag = document.querySelector("div.main-archive-container");
 
+// WORKSHOP DATA
+
+const sectionWorkshopTag = document.querySelector("div.main-workshop-container");
+
 // Fetch Data
 // fetching data for the archive page content
 
@@ -81,6 +85,32 @@ getData().then(data => {
 })
 
 
+//WORKSHOP DATA
+
+const getWorkshopData = function () {
+    return fetch('./assets/script/workshop.json')
+    .then (response => response.json())
+    .then (data => {
+            sectionWorkshopTag.innerHTML = ""
+            data.workshops.forEach(item => {
+                sectionWorkshopTag.innerHTML = sectionWorkshopTag.innerHTML + `
+                <div class="col-sm-4 col-lg-4 reuseitObject-container">
+                    <img class="img-fluid img-thumbnail reuseitObject-image" src="${item.image}">
+                    <div class="text-center">
+                        <p>${item.title}</p>
+                    </div>
+                </div>
+                
+                
+                `
+            })
+    })
+
+}
+
+getWorkshopData();
+
+
 //To the top button function
 window.onscroll = function () {
     scrollFunction()
@@ -106,5 +136,5 @@ function toTheTop (){
 
 toTheTop();
 
-//WORKSHOP DATA
+
 

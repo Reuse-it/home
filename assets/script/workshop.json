@@ -2,41 +2,81 @@
    "workshops": [
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
+        "image": "./assets/img/workshopReuseIt/odc_workshop.JPG",
         "title": "ODC workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/kask_worshop.jpeg",
+        "image": "./assets/img/workshopReuseIt/kask_workshop.jpeg",
         "title": "Autonomous Design workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
-        "title": "ODC workshop"
+        "image": "./assets/img/workshopReuseIt/graffiti_one.JPG",
+        "title": "Graffiti workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
-        "title": "ODC workshop"
+        "image": "./assets/img/workshopReuseIt/graffiti_two.JPG",
+        "title": "Graffiti workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
-        "title": "ODC workshop"
+        "image": "./assets/img/workshopReuseIt/graffiti_three.JPG",
+        "title": "Graffiti workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
-        "title": "ODC workshop"
+        "image": "./assets/img/workshopReuseIt/bag_one.JPG",
+        "title": "Print workshop"
     },
 
     {
-        "image": "/assets/img/workshopReuseIt/odc_worshop.JPG",
-        "title": "ODC workshop"
+        "image": "./assets/img/workshopReuseIt/bag_two.jpeg",
+        "title": "Print workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/bag_three.jpeg",
+        "title": "Print workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/bag_four.JPG",
+        "title": "Print workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/bag_five.jpeg",
+        "title": "Print workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/bag_six.JPG",
+        "title": "Print workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/letter_one.jpeg",
+        "title": "Industrial workshop"
+    },
+
+    {
+        "image": "./assets/img/workshopReuseIt/letter_two.jpeg",
+        "title": "Industrial workshop"
+    },
+    {
+        "image": "./assets/img/workshopReuseIt/letter_three.jpeg",
+        "title": "Industrial workshop"
+    },
+    {
+        "image": "./assets/img/workshopReuseIt/embroidery_one.JPG",
+        "title": "Embroidery workshop"
+    },
+    {
+        "image": "./assets/img/workshopReuseIt/embroidery_two.JPG",
+        "title": "Embroidery workshop"
     }
-
-
 
    ]
 }
